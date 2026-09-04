@@ -293,7 +293,15 @@ header, main {
     gap: 8px;
 }
 
+.informatsiya-item__selectrs label {
+    color: #4C4B48;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+}
+
 .informatsiya-item__selectrs select{
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
     padding: 12px 14px;
     border: none;
     background-color: #EBE8E2;
@@ -302,4 +310,10 @@ header, main {
     line-height: 100%;
     font-family: "Inter", sans-serif;
     font-weight: 400;
+
+}
+
+.informatsiya-item__texterea {
+    display: flex;
+    gap: 8px;
 }
