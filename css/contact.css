@@ -315,5 +315,69 @@ header, main {
 
 .informatsiya-item__texterea {
     display: flex;
+    flex-direction: column;
     gap: 8px;
+}
+
+.informatsiya-item__texterea label {
+    color: #4C4B48;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+}
+
+.informatsiya-item__texterea textarea {
+    height: 155px;
+    width: 704px;
+    font-size: 16px;
+    color: #6B7280;
+    background-color: #EBE8E2;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #EBE8E2;
+}
+
+
+.informatsiya-item__buttons {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    justify-content: space-between;
+}
+
+.informatsiya-button__right {
+}
+
+.informatsiya-button__right button {
+    color: #ffffff;
+    background-color: #5E6738;
+    border-radius: 4px;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    border: none;
+    padding: 19px 88px;
+    font-size: 15px;
+    line-height: 20px;
+    width: 340px;
+}
+
+.informatsiya-button__left {
+    display: flex;
+    gap: 8px;
+    background-color: none;
+    border: 1px solid black;
+    border: none;
+    border-radius: 4px;
+    width: 324px;
+}
+
+.informatsiya-button__left button {
+    padding: 17px 38px;
+    font-size: 14px;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    line-height: 20px;
+    color: #1E1B18;
+    width: 325px;
 }
