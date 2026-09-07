@@ -177,8 +177,9 @@ header, main {
 .informatsiya-right__card1 h2 {
     color: #464F22;
     font-family: "Montserrat", sans-serif;
-    font-size: 20px;
+    font-size: 26px;
     font-weight: 600;
+    line-height: 28px;
 }
 
 .informatsiya-card1__items {
@@ -225,16 +226,57 @@ header, main {
     font-size: 14px;
 }
 
+.informatsiya-right__card2 {
+    border-radius: 8px;
+    padding: 24px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.informatsiya-card2__items {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+}
+
+.informatsiya-card2__items h3 {
+    color: #7C5730;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+}
+
+.informatsiya-right__card2 h1 {
+    color: #464F22;
+    font-family: "Montserrat", sans-serif;
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 28px;
+}
+
+.informatsiya-card2__button button {
+    padding: 12px 87px;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    width: 100%;
+    white-space: nowrap;    
+}
 
 .informatsiya-content__left {
     background-color: #ffffff;
-    padding: 48px;
+    padding: 38px;
     border-radius: 8px;
-    width: 68%;
+    width: 64%;
     height: auto;
     display: flex;
     flex-direction: column;
     gap: 32px;
+    white-space: nowrap;
 }
 
 .informatsiya-content__left h1 {
@@ -300,6 +342,7 @@ header, main {
 }
 
 .informatsiya-item__selectrs select{
+    cursor: pointer;
     font-family: "Inter", sans-serif;
     font-weight: 400;
     padding: 12px 14px;
@@ -317,6 +360,7 @@ header, main {
     display: flex;
     flex-direction: column;
     gap: 8px;
+    margin-top: 20px;
 }
 
 .informatsiya-item__texterea label {
@@ -327,7 +371,7 @@ header, main {
 
 .informatsiya-item__texterea textarea {
     height: 155px;
-    width: 704px;
+    /* width: 704px; */
     font-size: 16px;
     color: #6B7280;
     background-color: #EBE8E2;
@@ -335,6 +379,7 @@ header, main {
     font-weight: 500;
     padding: 10px;
     border-radius: 4px;
+    cursor: pointer;
     border: 1px solid #EBE8E2;
 }
 
@@ -342,24 +387,26 @@ header, main {
 .informatsiya-item__buttons {
     display: flex;
     align-items: center;
-    gap: 16px;
-    justify-content: space-between;
+    gap: 24px;
+    /* justify-content: space-between; */
+    justify-content: center;
+    margin-top: 45px;
 }
 
 .informatsiya-button__right {
 }
 
 .informatsiya-button__right button {
+    cursor: pointer;
     color: #ffffff;
     background-color: #5E6738;
     border-radius: 4px;
     font-family: "Inter", sans-serif;
     font-weight: 500;
     border: none;
-    padding: 19px 88px;
+    padding: 19px 81px;
     font-size: 15px;
     line-height: 20px;
-    width: 340px;
 }
 
 .informatsiya-button__left {
@@ -369,7 +416,6 @@ header, main {
     border: 1px solid black;
     border: none;
     border-radius: 4px;
-    width: 324px;
 }
 
 .informatsiya-button__left button {
@@ -379,5 +425,52 @@ header, main {
     font-weight: 500;
     line-height: 20px;
     color: #1E1B18;
-    width: 325px;
+    width: 100%;
 }
+
+
+.location-section {
+    display: flex;
+    flex-direction: row;
+}
+
+.location-section__right {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 50%;
+    background-color: #464F22;
+    padding: 48px;
+}
+
+.location-section__right h1 {
+    line-height: 42px;
+    font-size: 34px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+.location-section__right p {
+    font-size: 20px;
+    color: #C2CC93;
+    line-height: 28px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+}
+
+.location-section__right button {
+    width: 60%;
+    padding: 12px 24px;
+    font-size: 14px;
+    color: #464F22;
+    line-height: 20px;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    margin-top: 18px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+}
+
+
