@@ -56,11 +56,6 @@ header, main {
     display: none;
 }
 
-.header-section__links:hover {
-    /* color: #464F22; */
-    /* cursor: pointer; */
-}
-
 .header-link__item:hover  {
     cursor: pointer;
     color:#39411a;

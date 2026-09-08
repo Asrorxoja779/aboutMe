@@ -1,0 +1,259 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header, main {
+    background-color: #FBF2ED;
+}
+
+
+.container {
+    max-width: 1200px;  
+    margin: 0 auto;
+}
+
+.header-section {
+    color: #464F22;
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 0px;
+    align-items: center;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+}
+
+.header-section__contact {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+}
+
+.header-section__logoname  {
+    font-weight: bold;
+    font-weight: 700;
+    line-height: 20px;
+    font-size: 20px;
+}
+
+.header-logo__block {
+    display: none;
+}
+
+.header-section__links {
+    line-height: 24px;
+    font-weight: 400;
+    display: flex;
+    gap: 24px;
+    flex-direction: row;
+    align-items: center;
+    color: #6e6d69;
+    font-size: 16px;
+    /* justify-items: center; */
+}
+
+.header-list__btn {
+    display: none;
+}
+
+.header-link__item:hover  {
+    cursor: pointer;
+    color:#39411a;
+    /* font-size: 18px; */
+    transition: 0.2s;
+    transform: scale(1.09);
+    font-weight: 700;
+}   
+
+.header-link__item {
+    position: relative;
+    text-decoration: none;
+}
+
+.header-link__item:after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2.5px;
+    bottom: -4px;
+    left: 0;
+    background-color: #464F22;
+    /* transition: 0.1s;     */
+}
+
+.header-link__item:hover::after {
+    width: 100%;
+}
+
+
+.header-section__left {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    line-height: 20px;
+    font-weight: 500px;
+}
+
+.header-left__btn {
+    padding: 12px 24px;
+    color: #DBE5AA;
+    background-color: #464F22;
+    border-radius: 4px;
+    border: none;
+    font-weight: 20px;
+    font-size: 14px;
+}
+
+.header-section__font {
+    display: none;
+}
+
+.header-link__item a {
+    font-size: 16px;
+    text-decoration: none;
+    color: #6e6d69;
+}
+
+
+
+.story-section__bg {
+    background-image:url(/images.img/story-section__bg.svg);
+    border-radius: 12px;
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 48px;
+    padding-top: 252px;
+    margin-top: 52px;
+
+}
+
+.story-section__bg h1 {
+    color: #ffffff;
+    font-size: 48px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    line-height: 58px;
+}
+
+.story-section__bg p {
+    color: #ffffff;
+    font-size: 20px;
+    line-height: 20px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+}
+
+.story-section-items {
+    display: flex;
+    gap: 24px;
+}
+
+.story-section__content {
+    border-radius: 12px;
+    padding: 48px;
+    background-color: #F5ECE7;
+    display: flex;
+    flex-direction: column;
+    gap: 15.1px;
+}
+
+
+.story-section__content h1 {
+    font-size: 32px;
+    color: #464F22;
+    line-height: 42px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+}
+
+.story-section-items p {
+    font-size: 16px;
+    color: #46483D;
+    line-height: 26px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+}
+
+.story-section__stats {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    gap: 7.2px;
+}
+
+.story-stats__card {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    background-color: #EFE6E2;
+    border-radius: 12px;
+    padding: 46px 57px;
+    align-items: center;
+}
+
+.story-stats__card h3 {
+    color: #7C5730;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    line-height: 42px;
+    font-size: 32px;
+}
+
+.story-stats__card p {
+    color: #4C4B48;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    line-height: 20px;
+    font-size: 14px;
+    white-space:nowrap;
+    letter-spacing: 0.7px;
+}
+
+/* footer section start */
+footer {
+    background-color: #FBF2ED;
+    padding: 48px 0px;
+}
+
+.footer-section {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}
+
+.footer-section h1 {
+    color: #7C5730;
+    font-size: 32px;
+    line-height: 42px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+}
+
+.footer-section__items {
+    display: flex;
+    flex-direction: row;
+    gap: 48px;
+}
+
+.footer-section__item {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.footer-section__item a {
+    text-decoration: none;
+    color: #46483D;
+    font-size: 16px;
+    line-height: 25px;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+}
+
+.footer-section__paragraph{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
