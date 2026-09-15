@@ -4,3 +4,4 @@ const headerLinks = document.querySelector(".header-section__links");
 menuBtn.addEventListener("click", function () {
     headerLinks.classList.toggle("active");
 });
+

@@ -300,3 +300,44 @@ footer {
     }
 
 }
+
+@media only screen and (max-width:480px) {
+    .header-left__btn {
+        padding: 8px 12px;
+        font-size: 10px;
+    }
+
+    .story-section__bg {
+        padding:24px;
+        padding-top: 260px;
+        gap: 2px;
+    }
+
+    .story-bg__br {
+        display: none;
+    }
+
+    .story-section__bg h1 {
+        font-size: 32px;
+    }
+
+    .story-section__content {
+        padding: 24px;
+    }
+
+    .story-stats__card {
+        padding: 36px 46px;
+        gap: 2px;
+    }
+
+    .footer-section__items {
+        flex-direction: column;
+        gap: 24px;
+    }
+
+    .footer-section__item {
+        flex-direction: row;
+        justify-content: space-around;
+        gap: 20px;
+    }
+}
