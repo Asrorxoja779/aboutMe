@@ -548,3 +548,22 @@ footer {
     }
 }
 
+@media only screen and (max-width:480px) {
+    .info-section {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 8px;
+    }
+
+    .info-section__boxs {
+        padding: 16px 18px;
+    }
+
+    .contact-left__button {
+        width: 100%;
+    }
+
+    .contact-left__button button {
+        padding: 12px 0px;
+    }
+}
+
