@@ -124,6 +124,7 @@ header, main {
 .informatsiya-section__content {
     display: flex;
     gap: 24px;
+    margin-top: 30px;
 }
 
 .informatsiya-section__items {
@@ -419,6 +420,10 @@ header, main {
     width: 100%;
 }
 
+.location {
+    padding: 35px 0px;
+}
+
 
 .location-section {
     display: flex;
@@ -482,6 +487,7 @@ footer {
     flex-direction: row;
     align-items: center;
     padding: 48px 0px;
+    justify-content: space-around;
 }
 
 .footer-section h1 {
