@@ -175,6 +175,21 @@ header, main {
     flex-direction: column;
 }
 
+.home-item__cards img{
+    transition: 0.3s;
+    border-radius: 12px;
+}
+
+.home-item__cards:hover {
+    transform: scale(1.005);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+.home-item__cards img {
+    width: 100%;
+    height: auto;
+}
+
 
 .home-item__card h2 {
     color: #464F22;
@@ -223,6 +238,11 @@ header, main {
     border: 1px solid #34302C;
 }
 
+.home-item__btn button:hover {
+    background-color: #44403d;
+    color: #ffffff;
+}
+
 
 /* info section start */
 
@@ -246,6 +266,16 @@ header, main {
     display: flex;
     gap: 16px;
     align-items: center;
+}
+
+.info-section__boxs:hover {
+    transform: scale(1.000);
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.2);
+}
+
+.info-section__boxs img {
+    width: 100%;
+    height: auto;
 }
 
 .info-box__icon {
