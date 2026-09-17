@@ -203,6 +203,21 @@ header, main {
     align-items: center;
 }
 
+.story-stats__card img{
+    transition: 0.3s;
+    border-radius: 12px;
+}
+
+.story-stats__card:hover {
+    transform: scale(1.005);
+    box-shadow: 0 10px 25px rgba(80, 78, 78, 0.2);
+}
+
+.story-stats__card img {
+    width: 100%;
+    height: auto;
+}
+
 .story-stats__card h3 {
     color: #7C5730;
     font-family: "Montserrat", sans-serif;
