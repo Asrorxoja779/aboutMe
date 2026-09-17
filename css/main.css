@@ -540,6 +540,21 @@
     color:#ffffff;
 }
 
+.furniture-section__card {
+    transition: 0.3s;
+    border-radius: 12px;
+}
+
+.furniture-section__card:hover {
+    transform: scale(1.005);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+.furniture-section__card img {
+    width: 100%;
+    height: auto;
+}
+
 .furnitura-card__items h3 {
     font-size: 20px;
     font-family: "Montserrat", sans-serif;
@@ -927,6 +942,59 @@
     padding: 0px 20px;
 }
 
+.our-img__card1 img{
+    transition: 0.3s;
+    border-radius: 12px;
+}
+
+.our-img__card1:hover {
+    transform: scale(1.005);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+.our-img__card1 img {
+    width: 100%;
+    height: auto;
+}
+
+.our-img__card2 img{
+    transition: 0.3s;
+    border-radius: 12px;
+}
+
+.our-img__card2:hover {
+    transform: scale(1.005);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+.our-img__card2 img {
+    width: 100%;
+    height: auto;
+}
+
+.our-img__card3 img{
+    transition: 3s;
+    border-radius: 12px;
+    transform: scale(1.05);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+.our-img__card3:hover {
+    /* transform: translate(-5px); */
+    /* box-shadow: 8px 2px 4px 0.5px rgb(73, 58, 58); */
+    box-shadow: 1px 2px 5px 10px  rgba(112, 109, 109, 0.15);
+    transform: scale(1.005);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+.our-img__card3 img {
+    width: 100%;
+    height: auto;
+}
+
+
+
+
 .our-section__items h1 {
     font-family: "Montserrat", sans-serif;
     font-weight: 600;
@@ -1179,6 +1247,23 @@
     gap: 24px;
 }
 
+.categories-item__cards
+
+.categories-item__cards img{
+    transition: 0.3s;
+    border-radius: 12px;
+}
+
+.categories-item__cards:hover {
+    transform: scale(1.005);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+.categories-item__cards img {
+    width: 100%;
+    height: auto;
+}
+
 .categories-item__cards {
     background: #ffffff;
     /* background: #ccc2a4; */
@@ -1361,6 +1446,38 @@
     background-color: #ffffff;
     border-radius: 12px;
     padding: 36px;
+}
+
+services-section__card
+
+.services-section__card img{
+    transition: 0.3s;
+    border-radius: 12px;
+}
+
+.services-section__card:hover {
+    transform: scale(1.005);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+.services-section__card img {
+    width: 100%;
+    height: auto;
+}
+
+.services-section__cardd img{
+    transition: 0.3s;
+    border-radius: 12px;
+}
+
+.services-section__cardd:hover {
+    transform: scale(1.005);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+.services-section__cardd img {
+    width: 100%;
+    height: auto;
 }
 
 .services-section__card p {
