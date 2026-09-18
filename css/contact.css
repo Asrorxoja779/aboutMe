@@ -465,7 +465,7 @@ header, main {
 }
 
 .location-section__right button {
-    width: 60%;
+    width: 100%;
     padding: 12px 24px;
     font-size: 14px;
     color: #464F22;
