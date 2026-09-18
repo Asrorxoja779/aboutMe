@@ -464,7 +464,7 @@
     }
 
     .hero-section__left img {
-        width: 700px;
+        width: 100%;
         max-height: 750px;
         border-radius: 18px;
         display: flex;
